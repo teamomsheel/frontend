@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
-import { TimeData } from "../../Data/TimeLine";
-import TimelineEvents from "./TimeLineEvents";
+import { TimeData } from "../../Data/Timeline";
+import TimelineEvents from "./TimelineEvents";
 
 const Timeline = () => {
   const [events, setEvents] = useState(TimeData);
